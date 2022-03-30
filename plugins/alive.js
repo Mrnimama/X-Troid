@@ -20,11 +20,10 @@ var ggg = Buffer.from(clh.cd, 'base64')
 
 var ddd = ggg.toString('utf-8')
 
-let whb = Config.WORKTYPE == 'public' ? false : true
+let FM = Config.WORKTYPE == 'public' ? false : true
 
-xTroid.addCMD({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
+xTroid.addCMD({pattern: 'alive', fromMe: FM, dontAddCommandList: true}, (async (message, match) => {
 
-// send a buttons message!credit PrinceRudh
 
     const buttons = [
 
