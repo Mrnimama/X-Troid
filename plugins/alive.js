@@ -1,6 +1,6 @@
 const xTroid = require('../events');
 
-const {MessageType, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
+const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 
 const fs = require('fs');
 
