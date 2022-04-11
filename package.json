@@ -63,7 +63,7 @@
     "node-tesseract-ocr": "^2.0.0",
     "pg": "^8.5.1",
     "sequelize": "^6.6.5",
-    "simple-git": "^2.45.1",
+    "simple-git": "^3.3.0",
     "sozlukjs": "^2.0.0", 
     "spotify-web-api-node": "^5.0.0",
     "sqlite3": "5.0.2",
