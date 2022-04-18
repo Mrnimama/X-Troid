@@ -449,7 +449,7 @@ if (config.WORKTYPE == 'private') {
             await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
         }));
     }
-    XTroid.addCMD({pattern: 'song ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
+    XTroid.addCMD({pattern: '2song ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
@@ -483,7 +483,7 @@ if (config.WORKTYPE == 'private') {
     }));
     
     
-    XTroid.addCMD({pattern: 'mp3 ?(.*)', fromMe: true, desc: 'Get song as a mp3 documet'}, (async (message, match) => {
+    XTroid.addCMD({pattern: 'song ?(.*)', fromMe: true, desc: 'Get song as a mp3 documet'}, (async (message, match) => {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text, {quoted: message.data});    
         let arama = await yts(match[1]);
@@ -543,7 +543,7 @@ if (config.WORKTYPE == 'private') {
         });
     }));
 
-    XTroid.addCMD({pattern: 'yt ?(.*)', fromMe: true, desc: Lang.YT_DESC}, (async (message, match) => { 
+    XTroid.addCMD({pattern: 'getyt ?(.*)', fromMe: true, desc: Lang.YT_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
         var reply = await message.client.sendMessage(message.jid,Lang.GETTING_VIDEOS,MessageType.text);
@@ -950,7 +950,7 @@ else if (config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
     }));
 
-    XTroid.addCMD({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
+    XTroid.addCMD({pattern: '2song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
@@ -986,7 +986,7 @@ else if (config.WORKTYPE == 'public') {
     
     
     
-    XTroid.addCMD({pattern: 'mp3 ?(.*)', fromMe: false, desc: 'Get song as a mp3 documet'}, (async (message, match) => {
+    XTroid.addCMD({pattern: 'song ?(.*)', fromMe: false, desc: 'Get song as a mp3 documet'}, (async (message, match) => {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text, {quoted: message.data});    
         let arama = await yts(match[1]);
@@ -1046,7 +1046,7 @@ else if (config.WORKTYPE == 'public') {
         });
     }));
 
-    XTroid.addCMD({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (message, match) => { 
+    XTroid.addCMD({pattern: 'getyt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
         var reply = await message.client.sendMessage(message.jid,Lang.GETTING_VIDEOS,MessageType.text);
