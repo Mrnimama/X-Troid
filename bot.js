@@ -366,7 +366,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + "lasi" + '>\n';
+                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + "Nima" + '>\n';
                         }
                     );
                     await conn.sendMessage(
@@ -392,7 +392,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + "lasi" + '>\n';
+                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + "Nima" + '>\n';
                         }
                     );
         
@@ -421,7 +421,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + "lasi" + '>\n';
+                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + "Nima" + '>\n';
                         }
                     );
                     await conn.sendMessage(
@@ -447,7 +447,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + "lasi" + '>\n';
+                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + "Nima" + '>\n';
                         }
                     );
                     await conn.sendMessage(
