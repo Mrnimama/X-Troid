@@ -1,6 +1,6 @@
 {
-    "name": "Xtroid Re Build",
-    "description": "Coded By Lasiya edit by Thinuwa",
+    "name": "Xtroid Nima edition",
+    "description": "Coded By Lasiya edit by Mr Nima",
     "logo": "https://telegra.ph/file/74177b42dd783b0451298.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
     "repository": "https://github.com/thinura2003/X-Troid",
@@ -153,17 +153,17 @@
         "EMOJI": {
             "description": "This is Menu emoji you can cange it here: මෙනුවේ විධාන ඉමොජිය වෙනස් කිරීමට",
             "required": false,
-            "value": "❄️"
+            "value": "🐺"
         },
         "DEMOJI": {
             "description": "This is Menu desc emoji you can cange it here: මෙනුවේ දෙවෙනි ඉමොජිය වෙනස් කිරීමට",
             "required": false,
-            "value": "🪅"
+            "value": "💠"
         },
         "CP": {
             "description": "This is Menu Caption of send media you can cange it here: bot ගෙන් send වෙන photo/video වල තිබිය යුතු නම වෙනස් කිරීමට",
             "required": false,
-            "value": "•--»X-Troid New Edition «--•"
+            "value": "•--»X-Troid Mr Nima Edition «--•"
         },
         "ALIVEIMG": {
             "description": "Customizable Alive Image!: ALIVE පණිවිඩයේ පින්තුරය  ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
@@ -173,12 +173,12 @@
         "SONDOWNMSG": {
             "description": "Song downloading message;",
             "required": true,
-            "value": "```🐺 Searching your song... ``` "
+            "value": "\n```🐺 Searching your song... ```\n "
         },
         "SONGUPMSG": {
             "description": "Song Uploading message;",
             "required": true,
-            "value": "```🐺 Uploading your song ...``` "
+            "value": "\n```🐺 Uploading your song ...```\n "
         }
 
     },
