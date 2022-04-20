@@ -36,7 +36,6 @@ const yts = require( 'yt-search' )
 const got = require("got");
 const ID3Writer = require('browser-id3-writer');
 const SpotifyWebApi = require('spotify-web-api-node');
-const ytser= `╔══════════════╗\n  *🐺 X-TROID NIMA EDITION 🐺* \n   *⚧️ Youtube search enging...*\n╚══════════════╝`
 
 const spotifyApi = new SpotifyWebApi({
     clientId: 'acc6302297e040aeb6e4ac1fbdfd62c3',
@@ -560,7 +559,7 @@ if (config.WORKTYPE == 'private') {
             mesaj += '\n\n'+' *[🐺]* '+ '*' + video.title + '*'+' \n *❖❯-* ' + video.url + '\n'
         });
 
-        await message.client.sendMessage(message.jid,ytser,mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
         await reply.delete();
     }));
 
@@ -1063,7 +1062,7 @@ else if (config.WORKTYPE == 'public') {
             mesaj += '\n\n'+' *[🐺]*'+ ' *' + video.title + '*'+'\n *❖❯-* ' + video.url + '\n'
         });
 
-        await message.client.sendMessage(message.jid,ytser,mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
         await reply.delete();
     }));
 
