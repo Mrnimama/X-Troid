@@ -173,12 +173,12 @@
         "SONDOWNMSG": {
             "description": "Song downloading message;",
             "required": true,
-            "value": "\n```🐺 Searching your song... ```\n "
+            "value": "\n```🐺 Searching your song...🔄 ```\n "
         },
         "SONGUPMSG": {
             "description": "Song Uploading message;",
             "required": true,
-            "value": "\n```🐺 Uploading your song ...```\n "
+            "value": "\n```🐺 Uploading your song ...⬆️```\n "
         }
 
     },
