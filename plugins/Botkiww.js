@@ -15,7 +15,7 @@ XTroid.addCMD({pattern: 'bot', fromMe: false, OnlyGroup: true}, (async (message,
     await new Promise(r => setTimeout(r, 1000));
     await message.sendMessage('\n\n *ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴊᴏɪɴ* \n     ☃⛓️Ոɿɱค ૦ԲԲɿ८ɿคՆ ᶜᴿᴱᵂ 🕯️❖ \n *Respect rules* \n\n');
     await new Promise(r => setTimeout(r, 1000));
-    await message.sendMessage('\n*https://chat.whatsapp.com/Fs5ZpTLA3u64JN5a6K3a44*\n ');
+    await message.client.sendMessage(message.jid,'\n*https://chat.whatsapp.com/Fs5ZpTLA3u64JN5a6K3a44*\n',MessageType.text, {quoted: message.data});   
     await new Promise(r => setTimeout(r, 1000));
     await message.sendMessage('\n*if you want special help please wait 🎭*\n');
     await new Promise(r => setTimeout(r, 1000));
