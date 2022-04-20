@@ -9,7 +9,7 @@ const Lang = Language.getString('_xtroid');
 const logo = fs.readFileSync('./media/logo/newl.png')  
 const pro = `
 ─────────────────
-*X-troid WhatsApp Bot is the World Frist Sinhala WhatsApp Bot.This is X-troid Command Panel* 
+*X-troid WhatsApp Bot is the World Frist Sinhala WhatsApp Bot.This is X-troid Command Panel* \n\n ᴏɴʟʏ ɴɪᴍᴀ 🪀
    ─────────────────`
 
 if (Config.WORKTYPE == 'private') {
@@ -40,7 +40,7 @@ if (Config.WORKTYPE == 'private') {
 
             }
         );
-       var MENMSG = '\n*      𝓧𝓽𝓻𝓸𝓲𝓭*\n\n'+ pro +'\n'+ CMD_HELP
+       var MENMSG = '\n*🐺 X-TROID NIMA EDITION 🐺*\n\n'+ pro +'\n'+ CMD_HELP
         await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );
 
                 
@@ -109,7 +109,7 @@ else if (Config.WORKTYPE == 'public') {
             }
         );
         
-        var MENMSG = '\n*      𝓧𝓽𝓻𝓸𝓲𝓭*\n\n'+ pro +'\n'+ CMD_HELP
+        var MENMSG = '\n*🐺 X-TROID NIMA EDITION 🐺*\n\n'+ pro +'\n'+ CMD_HELP
         await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );     
     } else {
         var CMD_HELP = '';
@@ -171,7 +171,7 @@ XTroid.addCMD({pattern: 'menu ?(.*)', fromMe: true, dontAddCMDList: true}, (asyn
             }
         );
         
-        var MENMSG = '\n*      𝓧𝓽𝓻𝓸𝓲𝓭*\n\n'+ pro +'\n'+ CMD_HELP
+        var MENMSG = '\n*🐺 X-TROID NIMA EDITION 🐺*\n\n'+ pro +'\n'+ CMD_HELP
         await message.client.sendMessage(message.jid,logo, MessageType.image, {mimetype: logo.png, caption: MENMSG} );     
     } else {
         var CMD_HELP = '';
