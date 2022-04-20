@@ -190,8 +190,8 @@
             "UPLOADING_SONG": ".ılı.—— uploading ——.ılı.\n   ⏫|◁      II         ▷|⏫",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading...```",
-            "UPLOADING_VIDEO": "```Uploading...```",
+            "DOWNLOADING_VIDEO": "\n🐺```Downloading your video ...⬇️```\n",
+            "UPLOADING_VIDEO": "\n🐺```Uploading your video ... ⬆️```\n",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
@@ -223,7 +223,7 @@
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*🚀 Xtroid Restarting*"
+            "AFTER_UPDATE": "*🚀 Xtroid nima Restarting*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
