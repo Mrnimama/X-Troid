@@ -43,7 +43,7 @@ if (Config.WORKTYPE == 'private') {
 
         
         var webimage = await axios.get(`https://shot.screenshotapi.net/screenshot?token=${r_text[i]}&url=${match[1]}&output=image&file_type=png&wait_for_event=load`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'speed capt. by xtroid'})
+        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'speed capt. by xtroid nima edition'})
 
     }));
 }
@@ -78,7 +78,7 @@ else if (Config.WORKTYPE == 'public') {
 
 
         var webimage = await axios.get(`https://shot.screenshotapi.net/screenshot?token=${r_text[i]}&url=${match[1]}&output=image&file_type=png&wait_for_event=load`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'speed capt. by xtroid'})
+        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'speed capt. by xtroid nima edition'})
 
     }));
     XTroid.addCMD({pattern: 'ss ?(.*)', fromMe: true, desc: Lang.SS_DESC, dontAddCMDList: true}, (async (message, match) => {
