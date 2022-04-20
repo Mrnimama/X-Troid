@@ -8,7 +8,7 @@ const chalk = require('chalk');
 
 const axios = require('axios');
 
-  xTroid.addCMD({pattern: 'love', fromMe: false,desc:' සමූහයක අයෙකුට ආදරේ ප්‍රකාශ කරන්න 🤗' }, (async (message, match) => {
+  xTroid.addCMD({pattern: 'loveyou', fromMe: false,desc:' සමූහයක අයෙකුට ආදරේ ප්‍රකාශ කරන්න 🤗' }, (async (message, match) => {
 
     await message.sendMessage('*I*');
 
