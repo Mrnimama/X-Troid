@@ -556,10 +556,10 @@ if (config.WORKTYPE == 'private') {
     
         var mesaj = '';
         arama.all.map((video) => {
-            mesaj += '*' + video.title + '* - ' + video.url + '\n'
+            mesaj += '\n\n'+' *[♓]* '+ '*' + video.title + '*'+' \n *❖❯-* ' + video.url + '\n'
         });
 
-        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'╔══════════════╗\n *🐺 X-TROID NIMA EDITION 🐺* \n *⚧️ Youtube search enging...*\n╚══════════════╝'+mesaj,MessageType.text);
         await reply.delete();
     }));
 
@@ -1059,10 +1059,10 @@ else if (config.WORKTYPE == 'public') {
     
         var mesaj = '';
         arama.all.map((video) => {
-            mesaj += '*' + video.title + '* - ' + video.url + '\n'
+            '╔══════════════╗\n *🐺 X-TROID NEW  EDITION 🐺* \n *⚧️ Youtube search enging*\n╚══════════════╝'+mesaj,
         });
 
-        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'╔══════════════╗\n *🐺 X-TROID NIMA EDITION 🐺* \n *⚧️ Youtube search enging...*\n╚══════════════╝'+mesaj,MessageType.text);
         await reply.delete();
     }));
 
